@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Equilibreuse" version="4">
+  <OBJECT>
+    <ID name="Equilibreuse" mc="Standard.Project" uid="381319cb-d136-4dfd-abce-954b77e3c12a"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Equilibreuse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="equilibreuse" mc="Standard.Package" uid="5406c500-8a47-495d-81b7-5b280a53f268"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Equilibreuse" mc="Infrastructure.DiagramSet" uid="acdb1390-b4c6-4b61-80df-51190d6a4be5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="dab" version="4">
+  <OBJECT>
+    <ID name="dab" mc="Standard.Package" uid="d37bdf68-2087-45e5-a422-c628204349b3"/>
+    <PID name="DAB" mc="Standard.Project" uid="46e32dcb-3485-4262-a008-ae82c1bc6d16"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[dab]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Banquier" mc="Standard.Actor" uid="944dd779-d66f-44f7-86ff-c0d0805e7463"/>
+        <COMPID name="Client" mc="Standard.Actor" uid="2b0f4a04-de0e-43a6-ad43-6963f2994720"/>
+        <COMPID name="Approvisionner le dab" mc="Standard.UseCase" uid="c7096060-3d67-4c17-a2c4-7be658e50d01"/>
+        <COMPID name="Retirer especes" mc="Standard.UseCase" uid="39f12fcb-7c03-4f0c-b18c-335aa0010ed2"/>
+        <COMPID name="Consulter le solde" mc="Standard.UseCase" uid="b58bfa86-4db1-482e-9f90-2dd680345458"/>
+        <COMPID name="S'identifier" mc="Standard.UseCase" uid="d9c5d55f-05c9-4858-971b-649fb2016705"/>
+        <COMPID name="Obtenir un reçu" mc="Standard.UseCase" uid="3e27ae9a-65d7-4056-bb2b-319ad0fca6a6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation dab" mc="Standard.UseCaseDiagram" uid="4007c0a7-649a-43b6-9465-f826963ef4a6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

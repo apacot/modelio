@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DAB" version="4">
+  <OBJECT>
+    <ID name="DAB" mc="Infrastructure.DiagramSet" uid="c56008a0-5cea-46a4-a8ee-cd8115654b61"/>
+    <PID name="DAB" mc="Standard.Project" uid="46e32dcb-3485-4262-a008-ae82c1bc6d16"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[DAB]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

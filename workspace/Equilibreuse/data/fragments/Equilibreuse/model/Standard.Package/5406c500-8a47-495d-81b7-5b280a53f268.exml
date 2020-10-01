@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="equilibreuse" version="4">
+  <OBJECT>
+    <ID name="equilibreuse" mc="Standard.Package" uid="5406c500-8a47-495d-81b7-5b280a53f268"/>
+    <PID name="Equilibreuse" mc="Standard.Project" uid="381319cb-d136-4dfd-abce-954b77e3c12a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[equilibreuse]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="3a867844-628f-4ddc-ad07-437b82df3254"/>
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="2bd68ea7-85b8-4a9a-bb48-937b210ff24e"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Equilibreuse" mc="Standard.Class" uid="dbeb2863-6e0a-4954-a8df-797e65457f0a"/>
+        <COMPID name="Codeur" mc="Standard.Class" uid="3138ea8a-1104-46d2-bafc-0dc4d20ccd64"/>
+        <COMPID name="Experience" mc="Standard.Class" uid="b2bbf8e3-4b08-4515-a6f4-a871df9eb978"/>
+        <COMPID name="Capot" mc="Standard.Class" uid="8f1bacbb-6648-4a36-a87a-99fb0bb10e8e"/>
+        <COMPID name="Timer" mc="Standard.Class" uid="7e4adf73-7f77-4ff2-b5ce-5287bd803afc"/>
+        <COMPID name="Actor" mc="Standard.Actor" uid="ee708b87-d41f-4af5-bdcd-6243abb4d358"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe equilibreuse" mc="Standard.ClassDiagram" uid="55818f0e-0d6d-40b6-b957-22b9add63b64"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
