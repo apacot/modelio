@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="alarmedomestique" version="4">
+  <OBJECT>
+    <ID name="alarmedomestique" mc="Standard.Package" uid="b1725487-3068-4bac-b435-5d6193d9ee42"/>
+    <PID name="AlarmeDomestique" mc="Standard.Project" uid="e345e3d4-c403-4d28-8b65-689ab190e099"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[alarmedomestique]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="d9bdd125-1db7-4453-8044-0b3dca201440"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="6d827255-a426-400e-a4ba-144d99f14a25"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Propriétaire" mc="Standard.Actor" uid="ef0b6ed9-e29d-4d4b-aea9-ef2677cd1145"/>
+        <COMPID name="Intrus" mc="Standard.Actor" uid="6535904a-b9b1-4879-9cd8-0e3dd511e774"/>
+        <COMPID name="Modifier le code" mc="Standard.UseCase" uid="af6ec4cc-94b2-4a27-ba73-42ae7ec71e6d"/>
+        <COMPID name="Armer ou Désarmer la centrale d'alarme" mc="Standard.UseCase" uid="c6d2cf91-b445-4654-b7a4-823fa2406f95"/>
+        <COMPID name="Surveiller les locaux" mc="Standard.UseCase" uid="857b0430-0e13-47ac-9c29-c4bfc43ddc25"/>
+        <COMPID name="Clavier" mc="Standard.Class" uid="5e38f1c7-737d-48ff-b5bc-b90f26d311a3"/>
+        <COMPID name="CentraleDAlarme" mc="Standard.Class" uid="d3ed38f7-927f-4fdf-a35d-7b84ee00be12"/>
+        <COMPID name="Code" mc="Standard.Class" uid="ddf9e394-dc10-4ccc-9846-550633c25c7e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation alarmedomestique" mc="Standard.UseCaseDiagram" uid="2aa4ff9f-7d9a-461c-85a1-fb7523ba9aef"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

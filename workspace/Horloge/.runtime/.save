@@ -1,1 +1,4 @@
-#Wed Sep 30 09:19:04 CEST 2020
+#Thu Oct 01 10:57:49 CEST 2020
+org.modelio.diagram.editor.OpenedDiagrams2='Diagramme d'\u00E9tat State Machine' {b34138a3-ecbe-4432-a6cb-d6dbfb3ca53c} Standard.StateMachineDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Diagramme de cas d'utilisation systemehorloge' {ff84bbbc-ca92-40ce-8242-06e1aea87d25} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Diagramme de classe horloge' {12d38e07-fdd8-497a-b2b6-2534a3099224} Standard.ClassDiagram

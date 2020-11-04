@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AlarmeDomestique" version="4">
+  <OBJECT>
+    <ID name="AlarmeDomestique" mc="Standard.Project" uid="e345e3d4-c403-4d28-8b65-689ab190e099"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[AlarmeDomestique]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="alarmedomestique" mc="Standard.Package" uid="b1725487-3068-4bac-b435-5d6193d9ee42"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="AlarmeDomestique" mc="Infrastructure.DiagramSet" uid="e1dd6487-3502-4cea-b26c-010c6b8a4417"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de séquence Surveiller les locaux" version="4">
+  <OBJECT>
+    <ID name="Diagramme de séquence Surveiller les locaux" mc="Standard.SequenceDiagram" uid="156980ac-b169-4717-9524-39970f0b7a03"/>
+    <PID name="Surveiller les locaux" mc="Standard.Interaction" uid="c8655db4-33f3-45fa-9570-532608086dab"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU9FO2zAU/RUr73VTWugihSJoUIUIFLXbpD2hm/jSmTl2Zzsl+aR9x35sDkkZ7dQok9B42ZOt63vuOff63PCsyATZoDZcyVNvQH2PnE3CefKIqSWcuZBHbLnGU0/pFc0UQ8EVZRxWGjKKjFulqcHvOcoUKQrMUFrzEtkmzrJlE4nqiEcyeFT6/oXa9ybhnVZr1LYkEjLHKKBUuY3Agnv7DCLHRorMhfD6k7C/BfwBXdpSoLfTyFFbI6bKNzRVGmmN7aBvCiYFhmxLdlnYBT50ZLl1JRokwcJGyZXT+HytLjc1kgxpsddov26prXmNAiwyp2VvbjdViGyqSDUikAw0o3s/QwbHJ8EHH9JeMjgJeqPxYNwLjo9GvWEQjP0HPxmDP2yfvgBjr6V6kjEkKPZELK3mcuVNGroMCUNifv6oRZBlrjfIhUBN3KyIUCnkRdh/rtDatBJ4JacqWyvDrfuyA7QdSk2/csE0VhVibqpRN8dBRMzlN9M9/WIVaXhycmIoUe/adNi6b9v9YjXeUFFVcOu1U/Df7Nbfod7dlJwdMuKMxudfLhf3F+fT69li/uk2ehuTdFjV19/220Cv7DD6b4f3ssPH+d1b++Dg0y+AbZ5I]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de séquence Surveiller les locaux]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="faf0dfd8-5e48-45ea-90f9-608f63f7d98c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
