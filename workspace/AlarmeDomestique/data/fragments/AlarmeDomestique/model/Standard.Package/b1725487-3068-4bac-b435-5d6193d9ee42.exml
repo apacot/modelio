@@ -26,6 +26,9 @@
         <COMPID name="Clavier" mc="Standard.Class" uid="5e38f1c7-737d-48ff-b5bc-b90f26d311a3"/>
         <COMPID name="CentraleDAlarme" mc="Standard.Class" uid="d3ed38f7-927f-4fdf-a35d-7b84ee00be12"/>
         <COMPID name="Code" mc="Standard.Class" uid="ddf9e394-dc10-4ccc-9846-550633c25c7e"/>
+        <COMPID name="Detecteur" mc="Standard.Class" uid="31267fe2-bb2e-4968-9165-732cad95fcf0"/>
+        <COMPID name="DetecteurTemporise" mc="Standard.Class" uid="8d8a0cf8-56d9-4b01-aa19-05a114287c3a"/>
+        <COMPID name="Sirene" mc="Standard.Class" uid="1d206ef3-7d3b-4af5-b23c-59b8f08fb38a"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation alarmedomestique" mc="Standard.UseCaseDiagram" uid="2aa4ff9f-7d9a-461c-85a1-fb7523ba9aef"/>

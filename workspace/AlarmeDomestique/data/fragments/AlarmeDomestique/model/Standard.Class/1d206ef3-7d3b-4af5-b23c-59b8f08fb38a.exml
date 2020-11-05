@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Clavier" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sirene" version="4">
   <OBJECT>
-    <ID name="Clavier" mc="Standard.Class" uid="5e38f1c7-737d-48ff-b5bc-b90f26d311a3"/>
+    <ID name="Sirene" mc="Standard.Class" uid="1d206ef3-7d3b-4af5-b23c-59b8f08fb38a"/>
     <PID name="alarmedomestique" mc="Standard.Package" uid="b1725487-3068-4bac-b435-5d6193d9ee42"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Clavier]]></ATT>
+      <ATT name="Name"><![CDATA[Sirene]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="LancerTempo" mc="Standard.Operation" uid="9658c304-7d7f-4804-97a8-9ae7d307f98f"/>
+          <ID name="Enclencher" mc="Standard.Operation" uid="dee013d3-6085-4473-9419-61721e37a77c"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,7 +25,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[LancerTempo]]></ATT>
+            <ATT name="Name"><![CDATA[Enclencher]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>

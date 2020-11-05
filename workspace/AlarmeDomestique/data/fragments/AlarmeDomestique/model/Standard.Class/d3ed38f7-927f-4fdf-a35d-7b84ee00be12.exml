@@ -86,6 +86,20 @@
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
+        <OBJECT>
+          <ID name="ModifierCode" mc="Standard.Operation" uid="d5c67e0e-1c49-4eba-8451-e55960aea362"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[ModifierCode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="ACTIVATION" mc="Standard.Signal" uid="b5154016-bc17-4ed2-8aa1-72e1685a39bd"/>
