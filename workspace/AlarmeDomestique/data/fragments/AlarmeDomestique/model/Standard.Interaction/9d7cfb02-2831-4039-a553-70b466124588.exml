@@ -1,17 +1,17 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Armer ou Désarmer la centrale d'alarme" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction" version="4">
   <OBJECT>
-    <ID name="Armer ou Désarmer la centrale d'alarme" mc="Standard.Interaction" uid="7c8ef604-f413-4ee6-8acc-f74acbc8555b"/>
-    <PID name="Armer ou Désarmer la centrale d'alarme" mc="Standard.UseCase" uid="c6d2cf91-b445-4654-b7a4-823fa2406f95"/>
+    <ID name="Interaction" mc="Standard.Interaction" uid="9d7cfb02-2831-4039-a553-70b466124588"/>
+    <PID name="Modifier le code" mc="Standard.UseCase" uid="af6ec4cc-94b2-4a27-ba73-42ae7ec71e6d"/>
     <ATTRIBUTES>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Armer ou Désarmer la centrale d'alarme]]></ATT>
+      <ATT name="Name"><![CDATA[Interaction]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
-          <ID name="locals" mc="Standard.Collaboration" uid="ca789b83-8041-45c1-baf0-9152ef5a2943"/>
+          <ID name="locals" mc="Standard.Collaboration" uid="cdf11066-39b9-4b7a-a2a3-576c8d175201"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
@@ -25,7 +25,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Diagramme de séquence Armer ou Désarmer la centrale d'alarme" mc="Standard.SequenceDiagram" uid="389a79aa-4d46-4cdb-908e-0d5ced809fcc"/>
+        <COMPID name="Diagramme de séquence Modifier le Code" mc="Standard.SequenceDiagram" uid="fb0b7762-9085-4019-a5a6-d6b19f960688"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

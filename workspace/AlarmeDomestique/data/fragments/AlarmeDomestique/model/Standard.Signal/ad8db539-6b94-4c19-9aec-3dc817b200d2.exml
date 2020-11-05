@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DESACTIVATION" version="4">
+  <OBJECT>
+    <ID name="DESACTIVATION" mc="Standard.Signal" uid="ad8db539-6b94-4c19-9aec-3dc817b200d2"/>
+    <PID name="CentraleDAlarme" mc="Standard.Class" uid="d3ed38f7-927f-4fdf-a35d-7b84ee00be12"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DESACTIVATION]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
