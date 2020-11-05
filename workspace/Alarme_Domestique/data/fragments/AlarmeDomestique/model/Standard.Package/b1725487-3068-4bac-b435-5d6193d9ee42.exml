@@ -15,7 +15,6 @@
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
         <COMPID name="State Machine" mc="Standard.StateMachine" uid="d9bdd125-1db7-4453-8044-0b3dca201440"/>
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="6d827255-a426-400e-a4ba-144d99f14a25"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Propriétaire" mc="Standard.Actor" uid="ef0b6ed9-e29d-4d4b-aea9-ef2677cd1145"/>
