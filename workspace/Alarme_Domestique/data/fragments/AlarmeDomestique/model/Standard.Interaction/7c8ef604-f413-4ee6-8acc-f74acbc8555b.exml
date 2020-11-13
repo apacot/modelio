@@ -547,7 +547,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.InteractionOperand" uid="e7b3fd9b-72d8-4dd6-83c6-36458728538d"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
+                  <ATT name="Guard"><![CDATA[Cas BOUTON_MARCHE]]></ATT>
                   <ATT name="EndLineNumber">586</ATT>
                   <ATT name="LineNumber">107</ATT>
                   <ATT name="Name"></ATT>
@@ -593,7 +593,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.InteractionOperand" uid="c1dc56dd-101a-4d18-be91-fe944cd913c3"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
+                  <ATT name="Guard"><![CDATA[Cas REPOS]]></ATT>
                   <ATT name="EndLineNumber">570</ATT>
                   <ATT name="LineNumber">187</ATT>
                   <ATT name="Name"></ATT>
@@ -617,7 +617,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.InteractionOperand" uid="649be434-f093-4f68-9cba-14a10bf83010"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
+                  <ATT name="Guard"><![CDATA[Si codeBon = VRAI]]></ATT>
                   <ATT name="EndLineNumber">548</ATT>
                   <ATT name="LineNumber">327</ATT>
                   <ATT name="Name"></ATT>
@@ -1206,7 +1206,7 @@
               <OBJECT>
                 <ID name="" mc="Standard.InteractionOperand" uid="d9b3b17a-2a4b-447e-8340-bcb1499022b1"/>
                 <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[cas REPOS]]></ATT>
+                  <ATT name="Guard"><![CDATA[cas SURVEILLANCE]]></ATT>
                   <ATT name="EndLineNumber">1045</ATT>
                   <ATT name="LineNumber">687</ATT>
                   <ATT name="Name"></ATT>
