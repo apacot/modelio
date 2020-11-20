@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SupportCoursSocketQt" version="4">
+  <OBJECT>
+    <ID name="SupportCoursSocketQt" mc="Standard.Project" uid="c15cbcd0-8b37-4046-8222-6aac72ad8fa9"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[SupportCoursSocketQt]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="supportcourssocketqt" mc="Standard.Package" uid="eb538317-4e8f-4248-bdde-afdbc35af51d"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="SupportCoursSocketQt" mc="Infrastructure.DiagramSet" uid="cba9e034-3947-41f6-a757-b1720f65002e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
