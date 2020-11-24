@@ -106,6 +106,25 @@
                         </LINK>
                       </DEPENDENCIES>
                     </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Standard.Transition" uid="3e6ec5bc-b1f5-4fbf-8ec9-e684a68e3745"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="ListeningState" mc="Standard.State" uid="0a8ad098-0c60-414c-a6ac-431877c710a4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
                   </COMP>
                 </DEPENDENCIES>
               </OBJECT>
@@ -174,7 +193,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Diagramme d'état State Machine" mc="Standard.StateMachineDiagram" uid="088c2a10-3022-4c0a-b7b7-b08100047b43"/>
+        <COMPID name="Diagramme d'état QTcpSocket" mc="Standard.StateMachineDiagram" uid="088c2a10-3022-4c0a-b7b7-b08100047b43"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

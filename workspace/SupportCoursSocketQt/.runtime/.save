@@ -1,3 +1,5 @@
-#Fri Nov 20 15:06:05 CET 2020
-org.modelio.diagram.editor.OpenedDiagrams1='Diagramme d'\u00E9tat State Machine' {088c2a10-3022-4c0a-b7b7-b08100047b43} Standard.StateMachineDiagram
-org.modelio.diagram.editor.OpenedDiagrams0='Diagramme de classe supportcourssocketqt' {84d078df-886a-421c-b80b-0b1a67c68c4a} Standard.ClassDiagram
+#Tue Nov 24 11:52:19 CET 2020
+org.modelio.diagram.editor.OpenedDiagrams3='Diagramme d'\u00E9tat QTcpServer' {e3c2f671-0d6e-4143-a596-a09aa7a314f9} Standard.StateMachineDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Diagramme de classe QTcpServer' {f859c120-b2c6-4954-9b47-b5a90a74b748} Standard.ClassDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Diagramme d'\u00E9tat QTcpSocket' {088c2a10-3022-4c0a-b7b7-b08100047b43} Standard.StateMachineDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Diagramme de classe QTcpSocket' {84d078df-886a-421c-b80b-0b1a67c68c4a} Standard.ClassDiagram
