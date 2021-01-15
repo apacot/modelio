@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projetballon" version="4">
+  <OBJECT>
+    <ID name="projetballon" mc="Standard.Package" uid="deb34f8b-82fb-469a-a391-523574448f98"/>
+    <PID name="ProjetBallon" mc="Standard.Project" uid="f259e096-4f91-4e15-a34f-35dbf345fc39"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projetballon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="071e95d6-ea99-4c8c-b196-eb432c960e42"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Antenne wifi" mc="Standard.Class" uid="73bb41a5-c271-452f-ad34-8d2635cff4f0"/>
+        <COMPID name="Carte SD" mc="Standard.Class" uid="ff846f3b-75b2-4347-b0b0-222f336bdf80"/>
+        <COMPID name="sfm10r1" mc="Standard.Class" uid="3c961d29-936f-4a2e-8977-359eb78657a5"/>
+        <COMPID name="Actor" mc="Standard.Actor" uid="d49149a0-dcda-4201-9518-f6174afcb551"/>
+        <COMPID name="esp32" mc="Standard.Class" uid="516d315b-c466-42df-89d8-c88783956ee6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
