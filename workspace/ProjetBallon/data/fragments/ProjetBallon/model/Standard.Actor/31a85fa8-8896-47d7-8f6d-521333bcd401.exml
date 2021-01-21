@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Actor" version="4">
   <OBJECT>
-    <ID name="Actor" mc="Standard.Actor" uid="d49149a0-dcda-4201-9518-f6174afcb551"/>
-    <PID name="projetballon" mc="Standard.Package" uid="deb34f8b-82fb-469a-a391-523574448f98"/>
+    <ID name="Actor" mc="Standard.Actor" uid="31a85fa8-8896-47d7-8f6d-521333bcd401"/>
+    <PID name="projetballon" mc="Standard.Package" uid="329142dd-c6a1-4dad-9aec-cd3f266e63c8"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="projetballon" version="4">
+  <OBJECT>
+    <ID name="projetballon" mc="Standard.Package" uid="329142dd-c6a1-4dad-9aec-cd3f266e63c8"/>
+    <PID name="ProjetBallon" mc="Standard.Project" uid="8228788c-b902-424e-8179-87a073a917e7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[projetballon]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="5f142b6c-837d-4b02-8b11-6cd37c819a5d"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="788f9803-6601-4254-bef9-7a07aee0c189"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Stockage" mc="Standard.Class" uid="96e2c88f-768f-49f8-8477-7a271c5deea5"/>
+        <COMPID name="ServeurWeb" mc="Standard.Class" uid="8c2f6200-9e5d-4f55-9be1-81d46a8ef342"/>
+        <COMPID name="Actor" mc="Standard.Actor" uid="31a85fa8-8896-47d7-8f6d-521333bcd401"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
