@@ -22,7 +22,7 @@
         <OBJECT>
           <ID name="Ordonnancer les tâches" mc="Standard.Gate" uid="425281a3-7e8b-4ed7-abd8-4c35909977b2"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">126</ATT>
+            <ATT name="LineNumber">150</ATT>
             <ATT name="Name"><![CDATA[Ordonnancer les tâches]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -32,6 +32,38 @@
       <COMP relation="Fragment">
         <COMPID name="page web admin" mc="Standard.Gate" uid="69cca204-d388-484f-8c94-e1f5096d5199"/>
         <COMPID name="Ordonnancer les tâches" mc="Standard.Gate" uid="425281a3-7e8b-4ed7-abd8-4c35909977b2"/>
+      </COMP>
+      <COMP relation="OwnedLine">
+        <OBJECT>
+          <ID name="modem SigFox" mc="Standard.Lifeline" uid="ba2013b6-bd4b-400b-88e5-25c854912218"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[modem SigFox]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="modem SigFox" mc="Standard.BindableInstance" uid="8111fc93-f16d-4c21-89e1-db42028e0cbf"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="leBallon" mc="Standard.Lifeline" uid="674c4af9-6cf0-41a5-aade-e41184c3642f"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[leBallon]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="leBallon" mc="Standard.BindableInstance" uid="ecf1f2ac-53a5-4394-8a7d-f248ce2027a6"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
       <COMP relation="OwnedCollaboration">
         <OBJECT>
@@ -45,7 +77,42 @@
             <ATT name="Name"><![CDATA[locals]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="modem SigFox" mc="Standard.BindableInstance" uid="8111fc93-f16d-4c21-89e1-db42028e0cbf"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[modem SigFox]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="ModemSigFox" mc="Standard.Class" uid="693f73a9-c212-4249-9758-94af4db9cf62"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="leBallon" mc="Standard.BindableInstance" uid="ecf1f2ac-53a5-4394-8a7d-f248ce2027a6"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[leBallon]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="BallonSonde" mc="Standard.Class" uid="f301544e-9912-4a78-9704-ddb1303e6fd1"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Product">
