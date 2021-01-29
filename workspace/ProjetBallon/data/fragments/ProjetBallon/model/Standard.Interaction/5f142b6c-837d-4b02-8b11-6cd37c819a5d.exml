@@ -20,11 +20,11 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="Afficher page web admin" mc="Standard.Message" uid="95952569-d7ab-4053-8de3-281726fa1d57"/>
+                <ID name="Afficher page web admin" mc="Standard.Message" uid="436e1a34-ad49-469d-bd4b-2757a1235758"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
-                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[1]]></ATT>
                   <ATT name="Name"><![CDATA[Afficher page web admin]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -32,7 +32,7 @@
                 <DEPENDENCIES>
                   <LINK relation="ReceiveEvent">
                     <REFOBJ>
-                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="782c2cfa-00ef-483a-8944-19dad7bb73d5"/>
+                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ddbdb624-3a81-421c-b4bb-da6773c80430"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -55,7 +55,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="782c2cfa-00ef-483a-8944-19dad7bb73d5"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">130</ATT>
+            <ATT name="LineNumber">125</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -90,7 +90,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionSpecification" uid="1b170264-b306-44de-83e9-4412f542c1c1"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">130</ATT>
+            <ATT name="LineNumber">125</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -211,7 +211,7 @@
                 <ID name="" mc="Standard.InteractionOperand" uid="afe9a9c1-4886-4bfd-8139-62f5d407f4ff"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[Si appui sur boutonEnvoyer]]></ATT>
-                  <ATT name="EndLineNumber">434</ATT>
+                  <ATT name="EndLineNumber">457</ATT>
                   <ATT name="LineNumber">220</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -227,7 +227,7 @@
                 <ID name="Opérateur" mc="Standard.Lifeline" uid="2cd1e3df-73b3-46b4-8986-63edfa18a50e"/>
               </REFOBJ>
               <REFOBJ>
-                <ID name="carteSD" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
+                <ID name="memoireVive" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -290,7 +290,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="58d43b69-4cb7-4755-9006-ae396018f854"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">425</ATT>
+            <ATT name="LineNumber">448</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -372,7 +372,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="carteSD" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
+                <ID name="memoireVive" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -407,7 +407,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="carteSD" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
+                <ID name="memoireVive" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -427,7 +427,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="carteSD" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
+                <ID name="memoireVive" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -449,20 +449,35 @@
         </OBJECT>
         <COMPID name="Emettre trame SigFox" mc="Standard.Gate" uid="d3a9cbe3-e5bc-4887-ba85-77ab2a58b3c0"/>
         <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="efb5a386-e12a-44f1-a2ee-4ebdb0563554"/>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="ddbdb624-3a81-421c-b4bb-da6773c80430"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">370</ATT>
+            <ATT name="LineNumber">130</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Covered">
+              <REFOBJ>
+                <ID name="web" mc="Standard.Lifeline" uid="55c347d3-1cec-4a56-a16d-e05bd41a9a69"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="7e3c1ad7-2f85-4d59-85dc-7e6936d32926"/>
+          <ATTRIBUTES>
+            <ATT name="LineNumber">368</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="données (altitude, longitude, lattitude)" mc="Standard.Message" uid="1fee7e8d-20ee-43ed-8205-22f4b566c727"/>
+                <ID name="données (altitude, longitude, lattitude)" mc="Standard.Message" uid="de7ad275-a0c2-4884-9c6e-86d3a29e737e"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
-                  <ATT name="SortOfMessage">SyncCall</ATT>
+                  <ATT name="SortOfMessage">ASyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[6]]></ATT>
                   <ATT name="Name"><![CDATA[données (altitude, longitude, lattitude)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -486,16 +501,16 @@
       </COMP>
       <COMP relation="OwnedLine">
         <OBJECT>
-          <ID name="carteSD" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
+          <ID name="memoireVive" mc="Standard.Lifeline" uid="5fce35c5-8a6f-45a6-8780-77faab496c73"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[carteSD]]></ATT>
+            <ATT name="Name"><![CDATA[memoireVive]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Represented">
               <REFOBJ>
-                <ID name="carteSD" mc="Standard.BindableInstance" uid="02ba3bdc-5802-4346-9388-454f319a4b98"/>
+                <ID name="memoireVive" mc="Standard.BindableInstance" uid="02ba3bdc-5802-4346-9388-454f319a4b98"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -546,13 +561,13 @@
           <DEPENDENCIES>
             <COMP relation="Declared">
               <OBJECT>
-                <ID name="carteSD" mc="Standard.BindableInstance" uid="02ba3bdc-5802-4346-9388-454f319a4b98"/>
+                <ID name="memoireVive" mc="Standard.BindableInstance" uid="02ba3bdc-5802-4346-9388-454f319a4b98"/>
                 <ATTRIBUTES>
                   <ATT name="IsConstant">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[carteSD]]></ATT>
+                  <ATT name="Name"><![CDATA[memoireVive]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
