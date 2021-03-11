@@ -20,10 +20,11 @@
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Stockage" mc="Standard.Class" uid="96e2c88f-768f-49f8-8477-7a271c5deea5"/>
-        <COMPID name="ServeurWeb" mc="Standard.Class" uid="8c2f6200-9e5d-4f55-9be1-81d46a8ef342"/>
+        <COMPID name="ASyncWebSocket" mc="Standard.Class" uid="8c2f6200-9e5d-4f55-9be1-81d46a8ef342"/>
         <COMPID name="Actor" mc="Standard.Actor" uid="31a85fa8-8896-47d7-8f6d-521333bcd401"/>
         <COMPID name="ModemSigFox" mc="Standard.Class" uid="693f73a9-c212-4249-9758-94af4db9cf62"/>
         <COMPID name="BallonSonde" mc="Standard.Class" uid="f301544e-9912-4a78-9704-ddb1303e6fd1"/>
+        <COMPID name="WiFi" mc="Standard.Class" uid="adf2d447-5870-4199-b0d5-f7d9afd54b4e"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
