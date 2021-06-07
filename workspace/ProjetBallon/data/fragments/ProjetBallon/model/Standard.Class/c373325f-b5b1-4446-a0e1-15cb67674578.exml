@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ModemSigFox" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Taches" version="4">
   <OBJECT>
-    <ID name="ModemSigFox" mc="Standard.Class" uid="693f73a9-c212-4249-9758-94af4db9cf62"/>
-    <PID name="projetballon" mc="Standard.Package" uid="329142dd-c6a1-4dad-9aec-cd3f266e63c8"/>
+    <ID name="Taches" mc="Standard.Class" uid="c373325f-b5b1-4446-a0e1-15cb67674578"/>
+    <PID name="projetballon" mc="Standard.Package" uid="abef2dfe-4af3-47de-9b4e-1a3aa8bede28"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[ModemSigFox]]></ATT>
+      <ATT name="Name"><![CDATA[Taches]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>

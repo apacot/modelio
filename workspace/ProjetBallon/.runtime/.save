@@ -1,4 +1,4 @@
-#Thu Mar 11 22:40:20 CET 2021
-org.modelio.diagram.editor.OpenedDiagrams2='Afficher page web admin' {8da9b823-1ecf-4bd1-8e51-893a787199ce} Standard.SequenceDiagram
-org.modelio.diagram.editor.OpenedDiagrams1='Sauvegarder mesures et positions' {666b0a48-4bc4-43b9-b313-4dd98d8881b6} Standard.SequenceDiagram
-org.modelio.diagram.editor.OpenedDiagrams0='Emettre trame SigFox' {a33c5759-cb6d-40ca-be66-0e67f9396a26} Standard.SequenceDiagram
+#Mon Jun 07 19:31:33 CEST 2021
+org.modelio.diagram.editor.OpenedDiagrams2='Afficher Page Web' {21ed52e4-1339-44af-9411-146c3decc06a} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Emettre trame Sigfox' {535b4204-38a9-44fb-b1ae-38c10d47a7f1} Standard.SequenceDiagram
+org.modelio.diagram.editor.OpenedDiagrams0='Sauvegarder Mesures et position' {5f2bd13a-752f-4f3d-bdc2-85fff22a5bbc} Standard.SequenceDiagram

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProjetBallon" version="4">
   <OBJECT>
-    <ID name="ProjetBallon" mc="Standard.Project" uid="8228788c-b902-424e-8179-87a073a917e7"/>
+    <ID name="ProjetBallon" mc="Standard.Project" uid="8deeee74-2e93-465c-ae66-790fe7236e60"/>
     <ATTRIBUTES>
       <ATT name="ProjectContext"></ATT>
       <ATT name="ProjectDescr"></ATT>
@@ -10,10 +10,10 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Model">
-        <COMPID name="projetballon" mc="Standard.Package" uid="329142dd-c6a1-4dad-9aec-cd3f266e63c8"/>
+        <COMPID name="projetballon" mc="Standard.Package" uid="abef2dfe-4af3-47de-9b4e-1a3aa8bede28"/>
       </COMP>
       <COMP relation="DiagramRoot">
-        <COMPID name="ProjetBallon" mc="Infrastructure.DiagramSet" uid="d7d37d95-68fa-4bf9-b8a5-3bfaa479a3c8"/>
+        <COMPID name="ProjetBallon" mc="Infrastructure.DiagramSet" uid="a7eccd32-95ad-414d-91e2-0a582245b757"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

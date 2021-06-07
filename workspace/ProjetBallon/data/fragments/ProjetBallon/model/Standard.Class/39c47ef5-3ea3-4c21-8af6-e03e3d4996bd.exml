@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BallonSonde" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="WiFi" version="4">
   <OBJECT>
-    <ID name="BallonSonde" mc="Standard.Class" uid="f301544e-9912-4a78-9704-ddb1303e6fd1"/>
-    <PID name="projetballon" mc="Standard.Package" uid="329142dd-c6a1-4dad-9aec-cd3f266e63c8"/>
+    <ID name="WiFi" mc="Standard.Class" uid="39c47ef5-3ea3-4c21-8af6-e03e3d4996bd"/>
+    <PID name="projetballon" mc="Standard.Package" uid="abef2dfe-4af3-47de-9b4e-1a3aa8bede28"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[BallonSonde]]></ATT>
+      <ATT name="Name"><![CDATA[WiFi]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES></DEPENDENCIES>
